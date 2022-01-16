@@ -1,0 +1,30 @@
+
+.sidebar{
+    
+    flex: 0.2;
+    
+    z-index: 99;
+    border:1px black;
+    text-decoration: none;
+    position: sticky;
+    top: 82px;
+   
+}
+
+Link{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar > hr {
+
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

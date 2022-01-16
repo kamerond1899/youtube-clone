@@ -1,0 +1,13 @@
+.app_page{
+    display:flex;
+    position:sticky;
+    TOP: 0;
+
+
+}
+
+.app_sidebar{
+    position:sticky;
+    TOP: 10;
+
+}

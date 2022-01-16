@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    
+    TOP: 0;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-logo{
+    height: 25px;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+.header_input{
+    object-fit: contain;
+    display: flex;
+    align-items:center;
+    overflow: hidden;
+    width: 25%;
+    height: 40px;
+    
+    border: 1px solid lightgray;
+}
+
+
+.header_input > input{
+    align-items: center;
+    flex: 1;
+    
+    border: none;
+    outline:5px;
+    outline-color:blue;
+    outline-offset: 2.8px;
+ 
+}
+
+
+.header_inputButton{
+    color: gray;
+    
+    
+    border: 1px solid lightgray;
+    background-color: #f1efef;
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+.header_left{
+    display: flex;
+    align-items:center;
+}
+.header_icons{
+    display: flex;
+    align-items:center;
+    
+}
+.header_icon{
+    margin-right: 8px;
+}
+
+.Link {
+    overflow: hidden;
+}

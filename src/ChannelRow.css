@@ -1,0 +1,39 @@
+.channelRow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.channelRow_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRow_text > p {
+    color: #606060;
+    font-size: small !important;
+}
+
+.channelRow_logo{
+    display: flex;
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.channelRow_text > h4 {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+
+}
+
+.verifiedLogo{
+    object-fit: contain;
+    height: 16px !important;
+    width: 16px !important;
+    margin-left: 4px;
+    color: #606060;
+}

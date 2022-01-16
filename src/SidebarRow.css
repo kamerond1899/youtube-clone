@@ -1,0 +1,76 @@
+
+.sidebarRow:hover{
+    text-decoration: none;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    background: lightgray;
+    cursor: pointer;
+}
+
+.sidebarRow{
+    
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    background: white;
+}
+
+.sidebarRow_icon{
+    text-decoration: none;
+    color:gray;
+    font-size: large !important;
+}
+
+.sidebarRow_title{
+    text-decoration: none !important;
+    flex: 1;
+    
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sidebarRow:hover > .sidebarRow_icon{
+    text-decoration: none !important;
+    color: red;
+}
+
+.sidebarRow:hover > .sidebarRow_title
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*.sidebarRow.selected{
+    text-decoration: none;
+    background-color: lightgray;
+}
+
+.sidebarRow.selected > .sidebarRow_icon{
+    text-decoration: none !important;
+    color: red;
+}
+
+.sidebarRow.selected > .sidebarRow_title
+{
+    text-decoration: none !important;
+    font-weight: bold;
+}*/
+
+.active > .sidebarRow{
+    text-decoration: none;
+   
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+
+.active > .sidebarRow > .sidebarRow_title{
+    font-weight: bold;
+}
+
+.active > .sidebarRow > .sidebarRow_icon{
+    color: black;
+}
